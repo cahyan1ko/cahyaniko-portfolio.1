@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="stylesheet" href="css/style.css" />
+
+        <title>Contact - Cahyaaniko</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="navbar">
+                <img src="images/logo-c.png" class="logo-c" />
+                <h3>Cahyaaniko</h3>
+                <nav>
+                    <ul>
+                        <li>
+                            <b><a href="home.html">Home</a></b>
+                        </li>
+                        <li>
+                            <b><a href="about.html">About Me</a></b>
+                        </li>
+                        <li>
+                            <b><a href="resume.html">Resume</a></b>
+                        </li>
+                        <li>
+                            <b
+                                ><a href="contact.html" class="nav-current"
+                                    >Contact Us</a
+                                ></b
+                            >
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <h1>Contact Us</h1>
+            <p>Silakan isi formulir di bawah ini untuk menghubungi kami:</p>
+
+            <form id="contactForm">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" required />
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required />
+
+                <label for="message">Pesan:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <input type="submit" value="Kirim" />
+            </form>
+
+            <div id="confirmationMessage"></div>
+        </div>
+    </body>
+</html>

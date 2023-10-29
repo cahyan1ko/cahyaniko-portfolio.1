@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)), url(../images/bg-black.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.navbar{
+    align-items: center;
+    display: flex;
+    height: 12%;
+    background-color: black;
+    color: white;
+}
+
+.logo-c {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+h3 {
+    padding-left: 20px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #00FFFF;
+    font-size: 14px;
+}
+
+nav ul li a:hover {
+    color: white;
+}
+
+.nav-current {
+    color: white;
+}
+
+.row {
+    margin-left: 60px;
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.col {
+    color: white;
+}
+
+.col h1 {
+    margin-top: -30px;
+}
+
+
+/* sosial media */
+
+.col-sosmed{
+    margin-left: 350px;
+    margin-bottom: 70px;
+}
+
+.social-media {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+.social-media a:hover{
+    transform: scale(1.3);
+}
+
+.social-media img {
+    width: 70px;
+}
+/* CONTACT US */
+
+form {
+    background-color: #fff;
+    font-size: 12px;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: cyan;
+    color: black;
+}
+
+#confirmationMessage {
+    color: #008000;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* ABOUT */
+
+.col-textabout {
+    margin: 100px;
+    color: white;
+}
+
+
+/* resume */
+.row-resume {
+    color: white;
+    margin-top: 50;
+    padding: 100px;
+}
+
+.row-resume h1 {
+    width: 100%;
+    height: 100%;
+    color: black;
+    background-color: cyan;
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.row-resume h1:hover {
+    cursor: pointer;
+    background-color: black;
+    color: cyan;
+    transform: scale(1.3);
+}
+
+.row-resume a{
+    text-decoration: none;
+}
+
+.row-pengalaman {
+    color: white;
+    margin-top: 15%;
+}
+
+.row-materiSeminar {
+    color: white;
+}
+
+.row-materiSeminar p {
+    font-size: 13px;
+}
